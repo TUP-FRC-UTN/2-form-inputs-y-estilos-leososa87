@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulario Registro</title>
+        <style>
+            body{background-color:aliceblue;
+            }
+        </style>
+    </head>
+        <body style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">
+            <p style="align-content: center;"><img src="Imagenes/logoiicana.png" width="50%" height="50%"></p>
+            <form action="/" method="post">
+                Nombre: <br>
+                <input type="text" placeholder="Ingrese su Nombre" name="nombre"><br>
+                <br>
+                Apellido <br>
+                <input type="text" placeholder="Ingrese su Apellido" name="apellido"><br>
+                <br>
+                <hr>
+                Seleccione Género: <br>
+                <input type="radio" name="genero" id="genero" value="1"> Masculino<br>
+                <input type="radio" name="genero" id="genero" value="2"> Femenino<br>
+                <input type="radio" name="genero" id="genero" value="3" checked> Prefiero No Contestar<br>
+                <br>
+                <hr>
+                Nivel de Inglés: <br>
+                <input type="checkbox" name="intereses" id="intereses" checked> Básico <br>
+                <input type="checkbox" name="intereses" id="intereses" > Intermedio <br>
+                <input type="checkbox" name="intereses" id="intereses" > Avanzado <br>
+                <br>
+
+                Fecha de Nacimiento: <br>
+                <input type="date" name="fechanac" id="fechanac" max="2022-03-23">
+
+                <br>
+                <hr>
+                Ingrese su DNI: <br>
+                <input type="number" name="" id="">
+                <hr>
+                Seleccionar Provincia:
+                <br>
+                <select name="Clubes" id="Clubes">
+                    <option value="">Seleccione...</option>
+                    <option value="1">Córdoba</option>
+                    <option value="2">Tierra del Fuego</option>
+                    <option value="3">Salta</option>
+                </select>
+                <br>
+                <hr>
+                Seleccionar Localidad:
+                <br>
+                <select name="Clubes" id="Clubes">
+                    <option value="">Seleccione...</option>
+                    <option value="1">Capital</option>
+                    <option value="2">Villa Allende</option>
+                    <option value="3">Río Ceballos</option>
+                </select>
+                <br>
+                <hr>
+                Ingrese su Teléfono: <br>
+                <input type="number" name="" id="">
+                <hr>
+                Email: <br>
+                <input type="text" placeholder="ejemplo@ejemplo" name="nombre"><br>
+                <br>
+                Ingrese su comentario:
+                <br>
+                <textarea style="resize: none;" name="comentario" id="comentario" cols="30" rows="10" placeholder="Escriba aquí..."></textarea>    
+    
+                <br>
+                <hr>
+                <button type="submit">Registrarse</button>
+                <button type="reset">Restablecer</button>
+            </form>
+        </body>
+</html>

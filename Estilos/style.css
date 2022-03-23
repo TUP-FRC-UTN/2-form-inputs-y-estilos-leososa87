@@ -1,0 +1,18 @@
+p{
+    color: blue;
+    background-color: blanchedalmond;                
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 2px solid blue;
+}
+.error{
+    border: 2px solid red;
+}
+.exito{
+    font-weight: bold;
+    border: 4px solid greenyellow;
+}
+#parrafoExito{
+    font-size: x-large;
+    font-weight: bold;
+    border: 2px solid blue;
+}

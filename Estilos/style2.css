@@ -1,0 +1,37 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+}
+p,
+.error,
+#parrafoExito{
+    font-size: large;
+}
+.error{
+    border: solid salmon;
+}
+.exito{
+    border: solid green;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+}
+#parrafoExito{
+    color:green;
+    font-style:oblique;
+}
+span{
+    color: blueviolet;
+    font-size: xx-large;
+}
+/*selector para todo aquel elemento que se encuentre dentro de h1, sin importar el nivel de jeraquia*/
+h1 span{
+    color: brown;
+}
+/*selector para elementos subsiguientes*/
+p+span{
+    color: darkviolet;
+}
+/*selector para el primer nivel de jerarquia*/
+p>span{
+    color:coral;
+}
